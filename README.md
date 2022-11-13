@@ -17,24 +17,24 @@
     zL      scroll all the way to the right
     r       reload
     yy      copy the current url to the clipboard
-    p		Open the clipboard's URL in the current tab
-    P		Open the clipboard's URL in a new tab
-    gu		Go up the URL hierarchy
-    gU		Go to root of current URL hierarchy
-    v		Enter visual mode
-    V		Enter visual line mode
-    gi		Focus the first text input on the page
+    p	Open the clipboard's URL in the current tab
+    P	Open the clipboard's URL in a new tab
+    gu	Go up the URL hierarchy
+    gU	Go to root of current URL hierarchy
+    v	Enter visual mode
+    V	Enter visual line mode
+    gi	Focus the first text input on the page
     s, t	Open a link in the current tab
-    T		Open a link in a new tab
+    T	Open a link in a new tab
     <a-t>	Open multiple links in a new tab
     <a-d>	Download link url
     yf, yt	Copy a link URL to the clipboard
-    [[		Follow the link labeled previous or <
-    ]]		Follow the link labeled next or >
-    gf		Select the next frame on the page
-    gF		Select the page's main/top frame
-    m		Create a new mark
-    `		Go to a mark
+    [[	Follow the link labeled previous or <
+    ]]	Follow the link labeled next or >
+    gf	Select the next frame on the page
+    gF	Select the page's main/top frame
+    m	Create a new mark
+    `	Go to a mark
 
 ### Navigating to new pages:
 
@@ -42,8 +42,8 @@
     O       Open URL, bookmark, history entry in a new tab
     b       Open bookmark
     B       Open bookmark in a new tab
-    ge		Edit the current URL
-    gE		Edit the current URL and open in a new tab
+    ge	Edit the current URL
+    gE	Edit the current URL and open in a new tab
 
 ### Using find:
 
@@ -58,23 +58,23 @@
 
 ### Manipulating tabs:
 
-    N		Go one tab left
-    E		Go one tab right
-    ^		Go to previously-visited tab
-    g0		Go to the first tab
-    g$		Go to the last tab
+    N	Go one tab left
+    E	Go one tab right
+    ^	Go to previously-visited tab
+    g0	Go to the first tab
+    g$	Go to the last tab
     <a-p>	Pin or unpin current tab
-    <a-m>	Mute or unmute current tab
-    x		Close current tab
-    X		Restore closed tab
-    W		Move tab to new window
-    <<		Move tab to the left
-    >>		Move tab to the right
+    <a-m>   Mute or unmute current tab
+    x	Close current tab
+    X	Restore closed tab
+    W	Move tab to new window
+    <<	Move tab to the left
+    >>	Move tab to the right
 
 ### Miscellaneous
 
-    ?		Show help
-    gs		View page source
+    ?	Show help
+    gs	View page source
 
 ## Link hint characters
 
