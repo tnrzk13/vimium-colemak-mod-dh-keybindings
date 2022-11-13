@@ -5,26 +5,26 @@
 ### Navigating the current page:
 
     ?       show the help dialog for a list of all available keys
-    i       scroll left
+    i       scroll right
     n       scroll down
     e       scroll up
-    h       scroll right
+    h       scroll left
     gg      scroll to top of the page
     G       scroll to bottom of the page
     d       scroll down half a page
     c       scroll up half a page
     zH      scroll all the way to the left
-    zL      scroll all the way to the right
+    zI      scroll all the way to the right
     r       reload
     yy      copy the current url to the clipboard
     p	Open the clipboard's URL in the current tab
     P	Open the clipboard's URL in a new tab
     gu	Go up the URL hierarchy
     gU	Go to root of current URL hierarchy
-    v	Enter visual mode
-    V	Enter visual line mode
+    a	Enter visual mode
+    A	Enter visual line mode
     gi	Focus the first text input on the page
-    s, t	Open a link in the current tab
+    s, t	Open a link in the current tab (s=hover)
     T	Open a link in a new tab
     <a-t>	Open multiple links in a new tab
     <a-d>	Download link url

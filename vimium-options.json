@@ -1,19 +1,15 @@
 {
-  "settingsVersion": "1.67",
+  "settingsVersion": "1.67.2",
   "exclusionRules": [
     {
       "pattern": "https?://mail.google.com/*",
       "passKeys": ""
-    },
-    {
-      "pattern": "https://first20hours.github.io/*keyzen-colemak/",
-      "passKeys": ""
     }
   ],
   "filterLinkHints": false,
-  "waitForEnterForFilteredHints": true,
+  "waitForEnterForFilteredHints": false,
   "hideHud": false,
-  "keyMappings": "unmap j\nunmap u \nunmap l\nunmap L\nunmap f\nunmap F\nunmap J\nunmap gt\nunmap gT\nunmap <a-f>\n\nmap n scrollDown\nmap e scrollUp\nmap E nextTab\nmap N previousTab\nmap h scrollRight\nmap H goBack\nmap i scrollLeft\nmap I goForward\nmap c scrollPageUp\nmap t LinkHints.activateMode\nmap T LinkHints.activateModeToOpenInNewTab\nmap <a-t> LinkHints.activateModeWithQueue\nmap s LinkHints.activateMode action=hover\nmap o Vomnibar.activate\nmap O Vomnibar.activateInNewTab\nmap k performFind\nmap K performBackwardsFind\nmap <a-d> LinkHints.activateModeToDownloadLink\nmap yt LinkHints.activateModeToCopyLinkUrl",
+  "keyMappings": "mapkey n j\nmapkey N J\nmapkey e k\nmapkey E K\nmapkey i l\nmapkey I L\nmapkey k n\nmapkey K N\nmapkey l i\nmapkey L I\nmapkey j e\nmapkey J E\nmapkey t f\nmapkey T F\nmapkey a v\nmapkey A V\nmapkey c u\n\nmap s LinkHints.activateMode action=hover\nmap <a-t> LinkHints.activateModeWithQueue",
   "linkHintCharacters": "arstneiohdmgc,",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
@@ -24,7 +20,7 @@
   "scrollStepSize": 60,
   "smoothScroll": true,
   "grabBackFocus": false,
-  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\ng: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
   "searchUrl": "https://duckduckgo.com/?q=",
   "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
 }
